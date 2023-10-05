@@ -24,4 +24,4 @@ schema = StructType([
 # Read data from Kafka as a streaming DataFrame
 kafka_df = spark.readStream \
     .format("kafka") \
-    .option("kafka.bootstrap.servers", "kafka-container:9092") \
+    .option("kafka.bootstrap.servers", "kafka-container:9092")
